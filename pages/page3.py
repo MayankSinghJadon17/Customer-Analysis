@@ -51,6 +51,7 @@ def show():
     all_columns = df.columns[0:]  # Adjust index if first column is not usable
 
     select_all_option = "Select All"
+    num_clusters = 3
 
     # Show multiselect with "Select All" on top
     selected_features = st.multiselect(
@@ -61,7 +62,7 @@ def show():
     # Handle logic for Select All
     if select_all_option in selected_features:
         selected_features = list(all_columns)
-        num_clusters = st.slider("Number of clusters", min_value=2, max_value=10, value=3)
+        num_clusters = st.slider("Number of clusters", min_value=2, max_value=10, value= num_clusters)
 
     if st.button("Run Clustering"):
         st.success(f"Clustering with {num_clusters} clusters using features: {selected_features}")
