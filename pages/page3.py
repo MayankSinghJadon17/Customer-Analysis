@@ -29,7 +29,7 @@ def show():
 
     # Load and preview data
     if "df_original" not in st.session_state:
-        st.session_state.df_original = pd.read_csv(r"C:\Users\mayan\Downloads\df_encoded (1).csv")
+        st.session_state.df_original = pd.read_csv("df_encoded.csv")
 
     df = st.session_state.df_original.copy()
     st.subheader("📂 Input Data")
