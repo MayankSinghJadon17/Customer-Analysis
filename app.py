@@ -8,7 +8,7 @@ st.set_page_config(page_title="Customer Pesonality Analysis", layout="wide")
 with st.sidebar:
     selected = option_menu(
         menu_title="Get Info",
-        options=["Home", "Analytics", "Clustering"],
+        options=["Home", "Analysis", "Clustering"],
         icons=["house", "bar-chart", "diagram-3"],
         menu_icon="cast",
         default_index=0
@@ -17,7 +17,7 @@ with st.sidebar:
 # page navigations
 if selected == "Home":
     page1.show()
-elif selected == "Analytics":
+elif selected == "Analysis":
     page2.show()
 elif selected == "Clustering":
     page3.show()

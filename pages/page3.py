@@ -45,6 +45,7 @@ def show():
     if st.button("Show Elbow Curve"):
         elbow_data = st.session_state.df_numeric
         plot_elbow_curve(elbow_data, max_k=10)
+        st.markdown("We can see that ideal k value should be around **2-4**")
 
     # Select features to use
     st.subheader("🧮 Clustering Parameters")

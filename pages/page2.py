@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 
 def show():
-    st.title("📊 Analytics")
-    st.markdown("This page can be used for exploratory data analysis or dashboarding.")
+    st.title("📊 Analysis")
+    st.markdown("This is Analysis based on when I chose 3 clusters as a k value")
+    st.markdown("As the ideak K value came out to be 3 using elbow method")
     data = {
     "Strategy": ["Channel Priority", "Product Focus", "Promotion Type", "Loyalty Incentives"],
     "Premium Loyalists": ["Digital", "Premium", "Early Access", "VIP Rewards"],

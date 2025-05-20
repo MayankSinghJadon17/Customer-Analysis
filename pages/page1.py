@@ -17,5 +17,5 @@ def show():
             Ready to explore your customers? Click below to begin!
             """)
             
-    st.markdown("<h3 style='text-align: center; color: White;'> Use sidebar to navigate to Analytics Section </h2>", unsafe_allow_html=True)
-    
+    st.markdown("---")
+    st.markdown("<h3 style='text-align: center; color: White;'> Use sidebar to navigate to Analysis Section </h2>", unsafe_allow_html=True)
