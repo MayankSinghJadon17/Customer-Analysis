@@ -24,7 +24,7 @@ def plot_elbow_curve(data, max_k=10):
             st.pyplot(fig)
 
 def show():
-    st.markdown("<h1 style='text-align: center;'>📌 Customer Clustering</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>**Customer Clustering**</h1>", unsafe_allow_html=True)
     st.write("Configure clustering parameters and view customer segments.")
 
     # Load and preview data

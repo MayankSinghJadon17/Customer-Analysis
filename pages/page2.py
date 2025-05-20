@@ -31,7 +31,7 @@ def show():
         """)
 
     with col2:
-        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 0: Value-Focused Families</span>", unsafe_allow_html=True)
+        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 2: Value-Focused Families</span>", unsafe_allow_html=True)
         st.markdown("""
         ✅ **Majority are married and family orientated**  
         ✅ **Moderate Income and Wine Products are preferred**  
@@ -39,7 +39,7 @@ def show():
         """)
 
     with col3:
-        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 2: Budget-Conscious Traditionalists</span>", unsafe_allow_html=True)
+        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 0: Budget-Conscious Traditionalists</span>", unsafe_allow_html=True)
         st.markdown("""
         ✅ **Older Demographic**  
         ✅ **Prefer offline purchases**  
@@ -58,13 +58,13 @@ def show():
         """, unsafe_allow_html=True)
 
     with col2:
-        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 2</span>", unsafe_allow_html=True)
+        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 0</span>", unsafe_allow_html=True)
         st.markdown("""
         💍 <span style='font-size:20px; font-weight:bold;'></span> More spending on gold products — potential jewelry partnership opportunity.
         """, unsafe_allow_html=True)
 
     with col3:
-        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 0</span>", unsafe_allow_html=True)
+        st.markdown("<span style='color:gold; font-weight:bold;'>Cluster 2</span>", unsafe_allow_html=True)
         st.markdown("""
         🍷 <span style='font-size:20px; font-weight:bold;'></span> Wine spending — opportunity for curated wine subscriptions.
         """, unsafe_allow_html=True)
